@@ -35,9 +35,9 @@ export default function Header(props) {
             </ul>
             { 
              props.searchBar ?
-            <form className="d-flex">
+            <htmlForm className="d-flex">
               <input
-                className="form-control me-2"
+                className="htmlForm-control me-2"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -45,7 +45,7 @@ export default function Header(props) {
               <button className="btn btn-outline-success" type="submit">
                 Search
               </button>
-            </form> :
+            </htmlForm> :
             ""
             }
           </div>

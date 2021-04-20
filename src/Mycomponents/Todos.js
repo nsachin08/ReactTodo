@@ -12,9 +12,6 @@ export const Todos = ({todos,onDelete}) => {
               return <TodoItem todos={todos} onDelete={onDelete} />
             })
             }
-
-
-
         </div>
     )
 }
